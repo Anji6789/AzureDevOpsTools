@@ -12,9 +12,9 @@ Invoke-RestMethod -Uri $uriAccount -Method get -Headers $AzureDevOpsAuthenicatio
 
 #Create a work item
 
-$WorkItemType = "epic"
-$WorkItemTitle = "Test from Powershell"
-$WorkItemDescription = "Test Description"
+$WorkItemType = "task"
+$WorkItemTitle = "Testing one"
+$WorkItemDescription = "Testing Description"
 $ProjectName = "apicall";
 
 
